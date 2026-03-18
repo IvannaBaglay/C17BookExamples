@@ -124,12 +124,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Customer.hpp" />
-    <ClInclude Include="structbind.hpp" />
+    <ClInclude Include="StructureBinding\Customer.hpp" />
+    <ClInclude Include="StructureBinding\structbind.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainFunctions.hpp" />
+    <ClCompile Include="StructureBinding\Customer.cpp" />
+    <ClCompile Include="StructureBinding\CustomerMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

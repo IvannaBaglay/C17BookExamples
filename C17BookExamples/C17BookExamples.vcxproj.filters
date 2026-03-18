@@ -13,21 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\StructureBinding">
+      <UniqueIdentifier>{ff03cd0c-9c04-4f48-a23f-6d5202ae6cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StructureBinding">
+      <UniqueIdentifier>{ed006581-3f70-4878-9304-8cfb0c1d0207}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Customer.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="StructureBinding\structbind.hpp">
+      <Filter>Header Files\StructureBinding</Filter>
     </ClInclude>
-    <ClInclude Include="structbind.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="StructureBinding\Customer.hpp">
+      <Filter>Header Files\StructureBinding</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Customer.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFunctions.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureBinding\Customer.cpp">
+      <Filter>Resource Files\StructureBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureBinding\CustomerMain.cpp">
+      <Filter>Resource Files\StructureBinding</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
