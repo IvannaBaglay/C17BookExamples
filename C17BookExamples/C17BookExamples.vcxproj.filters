@@ -41,5 +41,8 @@
     <ClCompile Include="StructureBinding\CustomerMain.cpp">
       <Filter>Resource Files\StructureBinding</Filter>
     </ClCompile>
+    <ClCompile Include="InlineVariables\inlinethreadlocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

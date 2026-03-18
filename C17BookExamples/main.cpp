@@ -4,5 +4,6 @@
 
 int main()
 {
-    StructureBindingMain();
+    //StructureBindingMain();
+    InlineVariableMain();
 }
