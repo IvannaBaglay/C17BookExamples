@@ -38,3 +38,12 @@ struct Node
     }
 };
 
+// Deduction guide - lets compiler deduce T from constructor argument
+template<typename T>
+Node(T) -> Node<T>;
+
+template<typename T>
+Node<T>* MakeNode(T value)
+{
+    return new Node<T>{ value };
+}
