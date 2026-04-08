@@ -126,6 +126,7 @@
   <ItemGroup>
     <ClInclude Include="StructureBinding\Customer.hpp" />
     <ClInclude Include="StructureBinding\structbind.hpp" />
+    <ClInclude Include="Templates\foldtraverse.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InlineVariables\inlinethreadlocal.cpp" />
@@ -133,6 +134,7 @@
     <ClCompile Include="MainFunctions.hpp" />
     <ClCompile Include="StructureBinding\Customer.cpp" />
     <ClCompile Include="StructureBinding\CustomerMain.cpp" />
+    <ClCompile Include="Templates\TemplateMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

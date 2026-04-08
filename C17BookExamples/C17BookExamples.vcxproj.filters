@@ -27,6 +27,9 @@
     <ClInclude Include="StructureBinding\Customer.hpp">
       <Filter>Header Files\StructureBinding</Filter>
     </ClInclude>
+    <ClInclude Include="Templates\foldtraverse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,6 +45,9 @@
       <Filter>Resource Files\StructureBinding</Filter>
     </ClCompile>
     <ClCompile Include="InlineVariables\inlinethreadlocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates\TemplateMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

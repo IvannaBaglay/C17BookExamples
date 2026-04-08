@@ -5,5 +5,7 @@
 int main()
 {
     //StructureBindingMain();
-    InlineVariableMain();
+    //InlineVariableMain();
+
+    TemplateMain();
 }
